@@ -5,12 +5,19 @@
 This project is about programming a function that returns a line
 read from a file descriptor. It will not only allow you to add a very convenient function to your collection, but it will also make you learn a highly interesting new concept in C programming: static variables.
 
-## Makefile Commands
+## Command/s
 
-- `make/make all` - create library without bonus files
-- `make clean` - delete mandatory (part 1 & 2) object files
-- `make fclean` - delete mandatory object and binary files
-- `make re` - delete mandatory object files, binary files, and create library without bonus files
+To run get_next_line function with a main, use the command below:
+```sh
+Mandatory:
+
+$ gcc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c tests/main.c -D BUFFER_SIZE={any value > 0} && ./a.out
+```
+```sh
+Bonus:
+
+$ gcc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c tests/main_bonus.c -D BUFFER_SIZE={any value > 0} && ./a.out
+```
 
 ## Get_next_line Tester/s
 
