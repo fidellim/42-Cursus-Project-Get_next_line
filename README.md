@@ -12,15 +12,19 @@ read from a file descriptor. It will not only allow you to add a very convenient
 - `make fclean` - delete mandatory object and binary files
 - `make re` - delete mandatory object files, binary files, and create library without bonus files
 
-## Get_next_line Testers
+## Get_next_line Tester/s
 
-- [___]()
+- [Tripouille/gnlTester](https://github.com/Tripouille/gnlTester)
 
 ## Score
 
 - __ Black Hole days added
 - __/100 (Included Bonus) <br>
 <img src="/images/42_libft_score.jpeg" alt="score" width="200"/>
+
+## References
+
+[File System Calls](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
 
 ## Author
 
