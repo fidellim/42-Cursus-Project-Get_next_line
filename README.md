@@ -32,6 +32,7 @@ $ gcc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c tests/main_bon
 ## References
 
 [File System Calls](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
+[Multiple Read() Calls](https://stackoverflow.com/questions/34867211/what-happens-if-i-call-cs-read-multiple-times#:~:text=Every%20time%20you%20call%20read%20or%20write%20%2C%20action%20takes%20place,of%20file%20fd%20refers%20to.)
 
 ## Author
 
