@@ -8,11 +8,13 @@ read from a file descriptor. It will not only allow you to add a very convenient
 ## Command/s
 
 To run get_next_line function with a main, use the command below:
+
 ```sh
 Mandatory:
 
 $ gcc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c tests/main.c -D BUFFER_SIZE={any value > 0} && ./a.out
 ```
+
 ```sh
 Bonus:
 
@@ -27,7 +29,7 @@ $ gcc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c tests/main_bon
 
 - 30 Black Hole days added
 - 125/100 (Included Bonus) <br>
-<img src="/images/42_gnl_score.jpeg" alt="score" width="200"/>
+  <img src="./images/42_gnl_score.jpeg" alt="score" width="200"/>
 
 ## References
 
